@@ -1,0 +1,280 @@
+#express_checkout_button_product_page {
+    float: left;
+    display: inline-block;
+    clear: both;
+    margin-top: 20px;
+}
+#express_checkout_button_product_page .express_checkout_button {
+    float: left;
+}
+#express_checkout_button_product_page .express_checkout_button_cradit_card {
+    float: left;   
+}
+.express-checkout .ex-show-address-fields {
+    width: 100%;
+}
+.express-checkout .express-provided.hidden {
+    display: none !important
+}
+.express-checkout #order_payment_heading {
+    display: none;
+}
+.express-checkout .wc-terms-and-conditions {
+    width: 100%; 
+}
+.express-checkout #ship-to-different-address {
+    display: none;
+}
+.express-checkout.express-hide-terms .wc-terms-and-conditions {
+    display: none !important
+}
+.express-checkout #payment .payment_methods {
+    display: none
+}
+.ec_clearfix:before,
+.ec_clearfix:after {
+    content: " ";
+    display: table
+}
+.ec_clearfix:after {
+    clear: both
+}
+/*#payment ul.wc_payment_methods li.payment_method_express_checkout img {
+    height: 24px;
+    width: 40px;
+}*/
+.express_checkout_button_chekout_page {
+    content: " ";
+    display: table;
+}
+#express_checkout_button_chekout_page {
+    display: inline-block;
+}
+#express_checkout_button_chekout_page .express_checkout_button {
+    float: left;
+}
+#express_checkout_button_chekout_page .express_checkout_button_cradit_card {
+    float: left;
+    margin-left: 10px;
+}
+.express-checkout .express-provided.hidden.form-row-first+.form-row-last:not(.express-provided) {
+    width: auto;
+    float: none
+}
+#express_checkout_button_text {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #1982d1;
+}
+
+.single_add_to_cart_button:disabled[disabled]{
+    cursor: not-allowed;
+    opacity: .5;
+}
+#express_checkout_button_product_page .express_checkout_button a input.disabled {
+    color: inherit;
+    cursor: not-allowed;
+    opacity: 0.5;
+    padding: 0.618em 1em;
+}
+#express_checkout_button_product_page .express_checkout_button_cradit_card a input.disabled {
+    color: inherit;
+    cursor: not-allowed;
+    opacity: 0.5;
+    padding: 0.618em 1em;
+}
+p.woocommerce-SavedPaymentMethods-saveNew {
+    margin-bottom: 8px;
+}
+.angelleye_ec_save_to_accoount_box {
+    clear: both;
+}   
+
+
+div.widget_shopping_cart_content a.paypal_checkout_button {
+    border: medium none;
+    clear: both;
+    float: left;
+    box-shadow: none;
+}
+
+div.widget_shopping_cart_content a.paypal_checkout_button image {
+    box-shadow: none;
+    max-width: 100%;
+    padding: 0;
+}
+
+div.widget_shopping_cart_content a.paypal_checkout_button .ec_checkout_page_button_type_paypalimage, div.widget_shopping_cart_content a.paypal_checkout_button .ec_checkout_page_button_type_customimage {
+    border: medium none;
+    box-shadow: none;
+    height: auto;
+    margin: 3px 5px 3px 0;
+    padding: 0;
+    width: auto;
+}
+div.widget_shopping_cart_content a.paypal_checkout_button img.ec_checkout_page_button_type_pc {
+    box-shadow: none;
+}
+
+p.woocommerce-SavedPaymentMethods-saveNew {
+    width: 100%;
+}
+
+.angelleye_ec_save_to_accoount_box {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+form div.angelleye_ec_save_to_accoount_box p.form-row.woocommerce-SavedPaymentMethods-saveNew {
+    margin: 0 0 6px;
+    padding: 0px;
+}
+.button.alt.angelleye_cancel {
+    float: left;
+}
+.form-row.woocommerce-SavedPaymentMethods-saveNew > label {
+    display: inline-block;
+    margin: 0.25em 0 0.5em;
+    cursor: pointer;
+}
+.form-row.woocommerce-SavedPaymentMethods-saveNew input#wc-paypal_express-new-payment-method {
+    margin-bottom: -1px;
+    display: inline-block;
+    height: 16px;
+    line-height: 0;
+    margin: -4px 4px 0 0;
+    min-width: 16px;
+    outline: 0 none;
+    padding: 0;
+    text-align: center;
+    float: none;
+    vertical-align: middle;
+    width: 16px;
+}
+.angelleye_button_single a.paypal_checkout_button img.ppcreditlogo.ec_checkout_page_button_type_pc  {
+    border: medium none;
+    clear: both;
+    height: auto;
+    margin: 5px 5px;
+    padding: 0;
+    width: auto;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    box-shadow: none;
+}
+.angelleye_button_single {
+    clear: both;
+}
+.single_add_to_cart_button.paypal_checkout_button.paypal_checkout_button_cc {
+    border: none !important;
+}
+.single_add_to_cart_button.paypal_checkout_button.paypal_checkout_button_cc::before {
+    content: unset !important;
+    font-family: inherit !important;
+}
+.button.alt.angelleye_cancel {
+    margin-bottom: 10px;
+    text-align: center;
+}
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 1024px) {
+    .angelleye_button_single a.paypal_checkout_button img.ppcreditlogo.ec_checkout_page_button_type_pc {
+        margin: 0px;
+    }
+}
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 1080px) {
+    .angelleye_button_single a.paypal_checkout_button img.ppcreditlogo.ec_checkout_page_button_type_pc {
+        margin: 0px;
+    }
+}
+
+.angelleye-woocommerce-customer-details-email::before {
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-right: .618em;
+    content: "\e02d";
+    text-decoration: none;
+    margin-left: -1.5em;
+    line-height: 1.75;
+    position: absolute;
+}
+.angelleye-woocommerce-customer-details-phone, .angelleye-woocommerce-customer-details-email {
+    margin-bottom: 0;
+    padding-left: 1.5em;
+}
+
+.angelleye-woocommerce-customer-details-phone::before {
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-right: .618em;
+    content: "\e037";
+    text-decoration: none;
+    margin-left: -1.5em;
+    line-height: 1.75;
+    position: absolute;
+}
+
+.angelleye_smart_button_top, .angelleye_smart_button_bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.angelleye_smart_button_top, .angelleye_smart_button_bottom, .angelleye_smart_button_checkout_top, .angelleye_smart_button_checkout_bottom {
+    max-width: 500px;
+}
+.angelleye_vertical_small {
+    width: 150px;
+}
+.angelleye_vertical_medium {
+    width: 250px;
+}
+.angelleye_vertical_large {
+    width: 350px;
+}
+.angelleye_horizontal_small {
+    width: 300px;
+}
+.angelleye_horizontal_medium {
+    width: 400px;
+}
+.angelleye_horizontal_large {
+    width: 500px;
+}
+
+.angelleye_smart_button_bottom {
+    position: relative;
+    margin: 0 auto;
+}
+
+.angelleye_pp_message_home, .angelleye_pp_message_product, .angelleye_pp_message_cart, .angelleye_pp_message_payment, .angelleye_pp_message_category {
+    display: block;
+    margin: 15px 0px 15px 0px;
+    position: relative;
+    z-index: 99999;
+}
+.wc-proceed-to-checkout .angelleye_pp_message_cart.angelleye_flex {
+    display: flex;
+    justify-content: center;
+}
+.wc-proceed-to-checkout .angelleye_pp_message_cart.angelleye_text {
+    display: inline-block;
+}
+@media screen and (max-width: 400px) {
+    .angelleye_smart_button_top, .angelleye_smart_button_bottom, angelleye_smart_button_checkout_top {
+        width: 100%;
+    }
+}
